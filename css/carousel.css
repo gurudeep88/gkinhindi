@@ -1,0 +1,94 @@
+
+
+#wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#slider-area {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#slider-area .owl-item div {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: Center;
+}
+
+.slider-text {
+  position: relative;
+  top: 60%;
+  left: 30%;
+  z-index: 10;
+  width: 40%;
+}
+
+.slider-text h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #628E7D;
+  word-wrap: normal;
+  font-weight: 700;
+  position: relative;
+  width: 40%;
+  text-align: center;
+}
+.slider-text p {
+  font-size: 16px;
+  color: var(--text-white);
+  word-wrap: normal;
+  width: 40%;
+  position: relative;
+  text-align: center;
+}
+.slider-text .know-more a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #628E7D;
+  padding: 10px 16px;
+  display: inline-block;
+  border-radius: 25px;
+  color: var(--text-white);
+  position: relative;
+
+}
+.slider-text .know-more {
+  text-align: center;
+  width: 40%!important;
+}
+.slider-text .know-more a:hover {
+  font-size: 18px;
+  box-sizing: border-box;
+  background: var(--text-white);
+  color: #628E7D;
+  font-weight: 700;
+}
+.owl1, .owl2, .owl3, .owl4, .owl5, .owl6 {
+
+  width: 100%;
+  height: 100%;
+}
+.owl1 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url('../../images/equator1.png');
+
+}
+.owl2 {
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url('../../images/carousel1.jpeg');
+}
+.owl3 {
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url('../../images/carousel2.jpg');
+}
+.owl4 {
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url('../../images/imp-personalities.jpg');
+}
+.owl5 {
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url('../../images/inspirational.jpg');
+}
+.owl6 {
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url('../../images/ganit.png');
+}

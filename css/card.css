@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: KrutiDev;
+    src: url(../Krutidev_040_bold.TTF);
+}
+
+.product {
+  margin-top: 7%;
+}
+.product h2{
+  font-family: "Bw Aleta No 10"!important;
+  font-size: 48px;
+  line-height: 56px;
+  padding-left: 1.3rem;
+  font-weight: 100!important;
+  position: relative;
+  color: #628E7D!important;
+}
+.product p {
+  text-align: center;
+  font-size: 18px;
+}
+section.card-zoom-courses {
+  width: 100%;
+  height: auto;
+}
+.img-container  {
+  height: 350px;
+  width: 100%;
+  margin: 25px auto;
+}
+.img-container .img-box
+{
+  height: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container:hover .img-box {
+  transform: scale(1.1);
+
+}
+.img-container .img-box.img-box1 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.73)),
+  url(../../images/brunei.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container .img-box1:hover {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.92)),url(../../images/brunei.jpg);
+}
+.img-container .img-box2 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+  url(../../images/mahatvapurna-jankariyan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container .img-box2:hover {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.92)),
+  url(../../images/mahatvapurna-jankariyan.jpg);
+}
+.img-container .img-box.img-box3 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+  url(../../images/shortcut-tricks1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container .img-box3:hover {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.93)),
+  url(../../images/shortcut-tricks1.jpg);
+}
+.img-container .img-box.img-box4 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+  url(../../images/bhugol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container .img-box4:hover {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.93)),
+  url(../../images/bhugol.jpg);
+}
+.img-container .img-box.img-box5 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+  url(../../images/ph.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container .img-box5:hover {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.93)),
+  url(../../images/ph.jpg);
+}
+.img-container .img-box.img-box6 {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+  url(../../images/triangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+  transition: all ease 1.8s;
+  max-height: 100%;
+}
+.img-container .img-box6:hover {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.93)),
+  url(../../images/triangle.png);
+}
+
+.img-box .img-text h1 {
+  padding-top: 16%;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index:10;
+  font-weight: 700;
+  margin-bottom: 0%;
+  color: #628E7D;
+  text-shadow: 10px 10px 5px black;
+}
+.img-box .img-text p
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  color:white;
+  z-index:10;
+}
+.img-box .img-text a {
+
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index:10;
+  font-weight: 500;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color:var(--main);
+}
+.img-container:hover .img-box h1{
+color:white;
+font-weight: 500;
+}
+.img-container:hover .img-box a{
+color:white;
+font-weight: 700;
+color: #628E7D;
+}

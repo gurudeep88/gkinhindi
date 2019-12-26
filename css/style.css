@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*-------------header strip------------*/
+  /* refer header.css  */
+/*-------x------header strip-------x---------*/
+
+/*-----------header------------------*/
+header {
+  margin-bottom: 60px;
+}
+/*-------------------navbar-------------------*/
+
+  /*       refer navbar.css             */
+
+/*----------x------------navbar------------x-----------*/
+
+/*---------x-------------header------------x------------*/
